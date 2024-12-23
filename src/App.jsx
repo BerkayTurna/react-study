@@ -14,8 +14,8 @@ function App() {
       <h1>Hello {userName} </h1>
       <h2 className="background">Number of users: {users.length} </h2>
       <ul>
-        {users.map((user) => (
-          <li>{user}</li>
+        {users.map((user, index) => (
+          <li key={index}>{user}</li>
         ))}
       </ul>
     </>
