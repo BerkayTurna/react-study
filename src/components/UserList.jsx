@@ -1,13 +1,13 @@
-import USERS from "../data/users";
+import { USERS } from "../data/";
 
 function UserList() {
   return (
     <>
-      <ul>
+      <ol>
         {USERS.map((user, index) => (
           <li key={index}>{user}</li>
         ))}
-      </ul>
+      </ol>
     </>
   );
 }

@@ -1,5 +1,6 @@
-import IMAGES from "../data/images";
+import { IMAGES } from "../data/";
 
+// style prop for CSS
 function Images({ style }) {
   return (
     <>
