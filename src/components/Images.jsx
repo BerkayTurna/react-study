@@ -1,14 +1,10 @@
 import IMAGES from "../data/images";
 
-function Images() {
+function Images({ style }) {
   return (
     <>
       {IMAGES.map((image, index) => (
-        <img
-          key={index}
-          src={image}
-          style={{ borderBottom: "2px solid black", padding: "5px" }}
-        />
+        <img key={index} src={image} style={style} />
       ))}
     </>
   );

@@ -34,7 +34,7 @@ function App() {
         ))}
       </ul>
       <UserList />
-      <Images />
+      <Images style={{ borderBottom: "2px solid black", padding: "5px" }} />
       <ul>
         {brands
           .filter((brand) => brand.inStock)
