@@ -3,6 +3,7 @@ import "./App.css";
 import UserList from "./components/UserList";
 import Images from "./components/Images";
 import Counter from "./components/Counter";
+import ImageMultiplier from "./components/ImageMultiplier";
 
 function App() {
   //use HTML syntax after return in JSX
@@ -44,6 +45,7 @@ function App() {
           ))}
       </ul>
       <Counter />
+      <ImageMultiplier />
     </>
   );
 }
