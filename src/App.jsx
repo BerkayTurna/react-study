@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import UserList from "./components/UserList";
 import Images from "./components/Images";
+import Counter from "./components/Counter";
 
 function App() {
   //use HTML syntax after return in JSX
@@ -42,6 +43,7 @@ function App() {
             <li key={brand.id}>{brand.name.toUpperCase()}</li>
           ))}
       </ul>
+      <Counter />
     </>
   );
 }
