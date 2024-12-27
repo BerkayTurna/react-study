@@ -44,8 +44,22 @@ function App() {
             <li key={brand.id}>{brand.name.toUpperCase()}</li>
           ))}
       </ul>
-      <Counter />
-      <ImageMultiplier />
+      <div
+        style={{
+          margin: "10px",
+          border: "1px solid black",
+        }}
+      >
+        <Counter />
+      </div>
+      <div
+        style={{
+          margin: "10px",
+          border: "1px solid black",
+        }}
+      >
+        <ImageMultiplier />
+      </div>
     </>
   );
 }
